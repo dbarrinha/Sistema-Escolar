@@ -1,0 +1,12 @@
+.parallax-container
+{
+  weight:  15%;
+}
+img
+{
+	width: 70%;
+}
+.sombra
+{
+	text-shadow: 0 0 2px #e3f2fd, 0 0 2px #e3f2fd;
+}

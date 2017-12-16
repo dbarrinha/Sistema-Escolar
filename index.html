@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>Sistema Escolar</title>
+
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="resources/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="resources/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="resources/css/alteracoes.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+
+        <style>
+            .section{
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--CABEÇALHO-->
+        <ul id="dropdownAescola" class="dropdown-content">
+            <li><a href="#!">Quem Somos</a></li>
+            <li><a href="#!">Estrutura Física</a></li>
+            <li><a href="#!">Normas e Procedimentos</a></li>
+        </ul>
+        <ul id="dropdownAlunos" class="dropdown-content">
+            <li><a href="#!">Calendário Escolar</a></li>
+            <li><a href="#!">Comunicados</a></li>
+            <li><a href="#!">Relação de Materiais</a></li>
+        </ul>
+        <div class="navbar-fixed">
+            <nav class="z-depth-3 " >
+                <div class="nav-wrapper container">
+                    <i class="material-icons left">lightbulb_outline</i>
+                    <a href="../index.html" class="brand-logo">Sistema Escolar</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#">Home</a></li>
+                        <li><a class="dropdown-button" data-activates="dropdownAescola" href="#">A Escola</a></li>
+                        <li><a href="#">Atendimento</a></li>
+                        <li><a class="dropdown-button " data-activates="dropdownAlunos" href="#">Alunos</a></li>
+                        <li><a href="views/login.php">Entrar</a></li>
+                        <li><a href="views/novoUsuario.php">Cadastrar</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+        <!--FIM DO CABEÇALHO-->
+
+        <!--CONTEÚDO-->
+
+        <div class="parallax-container">
+            <div class="section no-pad-bot">
+                <div class="container center">
+                    <div class="row">
+                    </div>
+                </div>
+            </div>
+            <div class="parallax"><img class="responsive-img" src="resources/img/escola.jpg" alt="{Imagem}"></div>
+        </div>
+        <div class="container  z-depth-1-half">
+            <div class="section">
+                <div class="row ">
+                    <div class="col s6">
+                        <h3 class=" center header">Porque estudar em nossa escola?</h3>    
+                        <p class="center light">
+                            Para ser coerente com a sua missão de “uma educação inovadora e de qualidade, 
+                            que possibilite o desenvolvimento de nossos alunos como cidadãos conscientes e felizes, 
+                            capazes de gerir a sua própria vida e de atuar como membros ativos na sociedade”, 
+                            se propõe a fazer com que seus alunos possam viver em um mundo globalizado, 
+                            competitivo, em veloz transformação, que exige de todos uma capacidade de aprender contínua; 
+                            a formar sujeitos que sejam críticos, empreendedores, criativos, íntegros, 
+                            socialmente responsáveis, capazes de assumir responsabilidades diante da vida. 
+                        </p>     
+                    </div>
+                    <div class="center col s6">
+                        Imagem
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="quemsomos" class="container z-depth-1-half">
+            <div class="section">
+                <div class="row section scrollspy">
+                    <div class="col s6">    
+                        <h3 class="center header">Quem Somos!</h3>        
+                        <p class="light">
+                            A Escola nasceu do sonho de fazer uma educação transformadora, que propiciasse à criança uma infância repleta de “boas marcas”, de experiências positivas que ficassem para  sempre na “caixinha” das boas lembranças.
+                        </p>   
+                    </div>
+                    <div class="col s6">
+                        <h3 class="center header">Notícias!</h3>        
+                        <div class="row">
+                            <div class="col s6">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="resources/img/escolas.png">
+                                        <span class="card-title black-text">Card Title</span>
+                                    </div>
+                                    <div class="card-content">
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="#">Acessar</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s6">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="resources/img/fd6b407e307f262ff7d67e083f317cd1-ilustra--o-da-escola-de-onibus--nibus-escolar-by-vexels.png" >
+                                        <span class="card-title black-text">Card Title</span>
+                                    </div>
+                                    <div class="card-content">
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="#">Acessar</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>   
+                    </div>  
+                </div>
+            </div>
+        </div>
+
+
+        <!--FIM DO CONTEÚDO-->
+
+        <!--RODAPÉ-->
+        <footer class="page-footer  darken-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col s6">
+                        <h5 class="white-text">{Logo}Sistema Escolar</h5>
+                        <p class="grey-text text-lighten-4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus.
+                        </p>
+
+
+                    </div>
+                    <div class="col s6">
+                        <h5 class="white-text">Sobre Nossa Escola</h5>
+                        <ul>
+                            <li><a class="white-text" href="#!">Como funciona o exame de bolsa?</a></li>
+                            <li><a class="white-text" href="#!">Quanto tempo Existe?</a></li>
+                            <li><a class="white-text" href="#!">Mais informações</a></li>
+                            <li><a class="white-text" href="#!">Dúvidas?</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2017 Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Freelancer App</a>
+                </div>
+            </div>
+        </footer>
+
+
+        <!--  Scripts-->
+        <script>
+            $(document).ready(function () {
+                $('.parallax').parallax();
+                $('.scrollspy').scrollSpy();
+                $('.dropdown-button').dropdown({
+                    inDuration: 300,
+                    outDuration: 225,
+                    constrainWidth: false, // Does not change width of dropdown to that of the activator
+                    hover: true, // Activate on hover
+                    gutter: 0, // Spacing from edge
+                    belowOrigin: true, // Displays dropdown below the button
+                    alignment: 'left', // Displays dropdown with edge aligned to the left of button
+                    stopPropagation: false // Stops event propagation
+                }
+                );
+            });
+        </script>
+
+        <script src="resources/js/materialize.js"></script>
+        <script src="resources/js/init.js"></script>
+
+    </body>
+</html>
